@@ -13,7 +13,7 @@ In order to implement the code, I used a method of finding code online, learning
 
 ## Coding standards.
 
-I used tabs to make my work look better for me, by being able to place them all in a structure I was able to read the code better, this is my standard of coding and it helps me understand what functions go with what variables, for example I will put certain lines of text further to the right since people read left to right, having something to distinguish the code helps.
+I used tabs to make my work look better for me, by being able to place them all in a structure I was able to read the code better, this is my standard of coding and it helps me understand what functions go with what variables, for example I will put certain lines of text further to the right since people read left to right, having something to distinguish the code helps. When reading my code back for references for future work, my coding standards will make it easier for me and any of my team to read and understand the code written. 
 
 ## Debugging.
 
