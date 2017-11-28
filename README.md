@@ -5,7 +5,7 @@ HND Game development Project 01
 
 ## The IDE I used to design this product is the original Notepad,
 
-I used this to write the code as it is the most basic text editor, this was to show me what the difference was between a basic text editor and a code development software. Learning that there are many things that other IDE's can offer many more features such as debugging, however using notepad showed me how difficult it can be to write code with no help from the software, this has helped me understand the importance of IDE's.
+I used this to write the code as it is the most basic text editor, this was to show me what the difference was between a basic text editor and a code development software. Learning that there are many things that other IDE's can offer many more features such as debugging, however using notepad showed me how difficult it can be to write code with no help from the software, IDE's provide many features such as syntax highlighting that helps when reading code, however Notepad does not have any of these features, this has helped me understand the importance of IDE's.
 
 ## The implementation.
 
