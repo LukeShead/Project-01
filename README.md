@@ -9,7 +9,9 @@ I used this to write the code as it is the most basic text editor, this was to s
 
 ## The implementation.
 
-In order to implement the code, I used a method of finding code online, learning it and what each line does, then writing my own to help me understand how it is written. By researching the different functions using sites like W3schools.com, I was able to use these functions to help me write the code. This usually worked however by not taking individual problems and solving them one by one I tried to solve the whole thing at once and because of this it means that the program was filled with errors and not allowing me to finish by the deadline.
+In order to implement the code, I used a method of finding code online, learning it and what each line does, then writing my own to help me understand how it is written. By researching the different functions using sites like W3schools.com, I was able to use these functions to help me write the code. This research made creating the project much easier, this is because knowing what certain functions did was very helpful when looking at what functions to use at the time, by using the right functions I was able to make more progress rather than have more errors.
+
+This usually worked however by not taking individual problems and solving them one by one I tried to solve the whole thing at once and because of this it means that the program was filled with errors and not allowing me to finish by the deadline.
 
 ## Coding standards.
 
