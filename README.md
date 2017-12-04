@@ -3,7 +3,7 @@ HND Game development Project 01
 
 ## What is the Game,
 
-The game is where the user will play a square avatar, they will have to avoid an NPC square from colliding with the user, there are three lives that the user has to lose by colliding with the other square, the game ends when the players lives are dropped to 0.
+The game is where the user will play a square avatar, they will have to avoid an NPC square from colliding with the user, there are three lives that the user has to lose by colliding with the other square, the game ends when the players lives are dropped to 0. A timer is displayed on the app to show the user how far they have got.
 
 ## IDE, Implementation and standards of project 1.
 
