@@ -1,6 +1,10 @@
 # Project-01
 HND Game development Project 01
 
+## What is the Game,
+
+The game is where the user will play a square avatar, they will have to avoid an NPC square from colliding with the user, there are three lives that the user has to lose by colliding with the other square, the game ends when the players lives are dropped to 0.
+
 ## IDE, Implementation and standards of project 1.
 
 ## The IDE I used to design this product is the original Notepad,
