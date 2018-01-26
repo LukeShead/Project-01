@@ -15,7 +15,9 @@ I used this to write the code as it is the most basic text editor, this was to s
 
 In order to implement the code, I used a method of finding code online, learning it and what each line does, then writing my own to help me understand how it is written. By researching the different functions using sites like W3schools.com, I was able to use these functions to help me write the code. This research made creating the project much easier, this is because knowing what certain functions did was very helpful when looking at what functions to use at the time, by using the right functions I was able to make more progress rather than have more errors.
 
-This usually worked however by not taking individual problems and solving them one by one I tried to solve the whole thing at once and because of this it means that the program was filled with errors and not allowing me to finish by the deadline.
+This usually worked however by not taking individual problems and solving them one by one I tried to solve the whole thing at once and because of this it means that the program was filled with errors and not allowing me to finish by the deadline. 
+
+After recieving help from another person, I was able to help solve my problem and I was able to finish the project, however it was still not on the deadline.
 
 
 ### Code I used.
@@ -35,21 +37,21 @@ canvas {
 </head>
 <body onload="startGame()">
 <script>
-var myGamePiece;
-var targetPiece;
-var gamepieceX;
-gamepieceX = 30;
-gamepieceY = 30;
-var othergamepieceX;
-var othergamepieceY;
-othergamepieceX = 100;
-othergamepieceY = 100;
-var gamelives;
-gamelives = 3;
-document.write(gamelives ," lives left")
+var Asquare;
+var newsquare;
+var squarex;
+squarex = 30;
+squarey = 30;
+var othersquarex;
+var othersquarey;
+othersquarex = 100;
+othersquarey = 100;
+var lives;
+lives = 3;
+document.write(ives ," lives left")
 function startGame() {
-    myGamePiece = new component(30, 30, "red", gamepieceX, gamepieceY);
-    targetPiece = new component(30, 30, "blue", othergamepieceX,othergamepieceY);
+    Asquare = new component(30, 30, "red", squarex, squarey);
+    newsquare = new component(30, 30, "blue", othergsquarex,othersquarey);
     
     myGameArea.start();
 }
@@ -86,37 +88,37 @@ function component(width, height, color, x, y) {
 function updateGameArea() {
     myGameArea.clear();
 	if (myGameArea.x && myGameArea.y) {
-		targetPiece.x = myGameArea.x;
-		targetPiece.y = myGameArea.y;
+		newsquare.x = myGameArea.x;
+		newsquare.y = myGameArea.y;
 	}
-	othergamepieceX = targetPiece.x
-	othergamepieceY = targetPiece.y
-	myGamePiece.update();
-    targetPiece.update();
+	othersquarex = newsquare.x
+	othergamepieceY = newsquare.y
+	Asquare.update();
+    newsquare.update();
 	
-    //document.write(gamepieceX)
-    if (myGamePiece.x < othergamepieceX) {
-    	myGamePiece.x += 1;
-		targetPiece.update();
-		myGamePiece.update();
+    //document.write(squarex)
+    if (Asquare.x < othersquarex) {
+    	Asquare.x += 1;
+		newsquare.update();
+		Asquare.update();
 	}
-	if (myGamePiece.x > othergamepieceX) {
-    	myGamePiece.x -= 1;
-		targetPiece.update();
-		myGamePiece.update();
-	}
-	
-	
-	if (myGamePiece.y < othergamepieceY) {
-    	myGamePiece.y += 1;
-		targetPiece.update();
-		myGamePiece.update();
+	if (Asquare.x > othergsquarex) {
+    	Asquare.x -= 1;
+		newsquare.update();
+		Asquare.update();
 	}
 	
-	if (myGamePiece.y > othergamepieceY) {
-    	myGamePiece.y -= 1;
-		targetPiece.update();
-		myGamePiece.update();
+	
+	if (Asquare.y < othergamepieceY) {
+    	Asquare.y += 1;
+		newsquare.update();
+		Asquare.update();
+	}
+	
+	if (Asquare.y > othergamepieceY) {
+    	Asquare.y -= 1;
+		newsquare.update();
+		Asquare.update();
 	}
 	
 ```
