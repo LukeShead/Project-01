@@ -20,7 +20,7 @@ This usually worked however by not taking individual problems and solving them o
 
 ### Code I used.
 
-'''cpp
+'''html
 
 <!DOCTYPE html>
 <html>
